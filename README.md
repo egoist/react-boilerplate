@@ -12,7 +12,7 @@ A fork of [tj/frontend-boilerplate](https://github.com/tj/frontend-boilerplate),
 - [x] [PostCSS](https://github.com/postcss/postcss)
 - [x] [CSS modules](https://github.com/outpunk/postcss-modules)
 - [x] [Rucksack](http://simplaio.github.io/rucksack/docs)
-- [x] [Redux Simple Router](https://github.com/rackt/redux-simple-router)
+- [x] [React Router](https://github.com/rackt/react-router)
 - [ ] Redux effects
 - [x] TodoMVC example
 - [x] Errors on the screen
