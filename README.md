@@ -39,7 +39,7 @@ $ npm run dev
 
 ```bash
 # minify and optimize
-npm run build
+$ npm run build
 ```
 
 ## Note
