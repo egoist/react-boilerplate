@@ -17,6 +17,7 @@ A fork of [tj/frontend-boilerplate](https://github.com/tj/frontend-boilerplate),
 - [x] TodoMVC example
 - [x] Errors on the screen
 - [x] Custom index template
+- [x] Automatically open browser for you
 - [ ] BrowserSync
 
 ## Setup
