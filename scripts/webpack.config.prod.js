@@ -5,6 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const extractCSS = new ExtractTextPlugin('style.[contenthash].css')
 
 config.devtool = 'source-map'
+config.output.filename = 'bundle.[chunkhash].js'
 config.plugins.push(
   new webpack.optimize.OccurenceOrderPlugin(),
   new webpack.optimize.UglifyJsPlugin({
