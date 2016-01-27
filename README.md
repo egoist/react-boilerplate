@@ -19,6 +19,7 @@ A fork of [tj/frontend-boilerplate](https://github.com/tj/frontend-boilerplate),
 - [x] Custom index template
 - [x] Automatically open browser for you
 - [ ] BrowserSync
+- [ ] ESlint
 
 ## Setup
 
