@@ -29,7 +29,7 @@ $ npm install
 
 ```bash
 # hot reloading
-# custom support by specific PORT env, default 7888
+# specific PORT env to use custom port, default 7888
 # eg: PORT=3000 npm run dev
 $ npm run dev
 ```
