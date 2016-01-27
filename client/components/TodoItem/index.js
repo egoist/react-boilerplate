@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import TodoTextInput from '../TodoTextInput'
 import classnames from 'classnames'
