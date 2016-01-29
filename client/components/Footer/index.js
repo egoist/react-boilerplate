@@ -27,8 +27,8 @@ class Footer extends Component {
 
     return (
       <a className={classnames({ selected: filter === selectedFilter })}
-         style={{ cursor: 'pointer' }}
-         onClick={() => onShow(filter)}>
+        style={{ cursor: 'pointer' }}
+        onClick={onShow(filter)}>
         {title}
       </a>
     )
@@ -60,6 +60,12 @@ class Footer extends Component {
       </footer>
     )
   }
+}
+
+Footer.propTypes = {
+  activeCount: React.PropTypes.number.isRequired,
+  filter: React.PropTypes.string.isRequired,
+  onShow: React.PropTypes.func.isRequired
 }
 
 export default Footer
